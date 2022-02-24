@@ -1,0 +1,32 @@
+-- The job identifier is 405015 and the job result is done.
+úno 24 09:40:49 SRVDAS14 systemd[1]: Starting Zabbix Proxy...
+-- Subject: A start job for unit zabbix-proxy.service has begun execution
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit zabbix-proxy.service has begun execution.
+-- 
+-- The job identifier is 405015.
+úno 24 09:40:49 SRVDAS14 zabbix_proxy[39931]: zabbix_proxy [39931]: /etc/zabbix/zabbix_proxy.conf.d/*.conf: base path is not a directory
+úno 24 09:40:49 SRVDAS14 systemd[1]: zabbix-proxy.service: Control process exited, code=exited, status=1/FAILURE
+-- Subject: Unit process exited
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- An ExecStart= process belonging to unit zabbix-proxy.service has exited.
+-- 
+-- The process' exit code is 'exited' and its exit status is 1.
+úno 24 09:40:49 SRVDAS14 systemd[1]: zabbix-proxy.service: Failed with result 'exit-code'.
+-- Subject: Unit failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- The unit zabbix-proxy.service has entered the 'failed' state with result 'exit-code'.
+úno 24 09:40:49 SRVDAS14 systemd[1]: Failed to start Zabbix Proxy.
+-- Subject: A start job for unit zabbix-proxy.service has failed
+-- Defined-By: systemd
+-- Support: http://www.ubuntu.com/support
+-- 
+-- A start job for unit zabbix-proxy.service has finished with a failure.
+-- 
+-- The job identifier is 405015 and the job result is failed.
